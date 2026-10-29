@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\PharmaGestion.Core\PharmaGestion.Core.csproj" />
+    <ProjectReference Include="..\PharmaGestion.BLL\PharmaGestion.BLL.csproj" />
+    <ProjectReference Include="..\PharmaGestion.DAL\PharmaGestion.DAL.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Métadonnées et Licence Open Source -->
+    <Title>PharmaGestion</Title>
+    <Product>PharmaGestion - Gestion d'officine hors ligne</Product>
+    <Description>Application moderne de gestion de pharmacie hors ligne avec SQLite</Description>
+    <Authors>PharmaGestion Contributors</Authors>
+    <Company>PharmaGestion Open Source</Company>
+    <Copyright>Copyright © 2026 PharmaGestion Contributors</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+
+</Project>

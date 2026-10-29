@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="PharmaGestion.BLL/PharmaGestion.BLL.csproj" />
+  <Project Path="PharmaGestion.Core/PharmaGestion.Core.csproj" />
+  <Project Path="PharmaGestion.DAL/PharmaGestion.DAL.csproj" />
+  <Project Path="PharmaGestion.Tests/PharmaGestion.Tests.csproj" />
+  <Project Path="PharmaGestion.UI/PharmaGestion.UI.csproj" />
+</Solution>
